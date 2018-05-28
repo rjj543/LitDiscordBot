@@ -1,0 +1,2 @@
+# LitDiscordBot
+NewBot
