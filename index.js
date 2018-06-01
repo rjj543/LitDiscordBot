@@ -41,8 +41,8 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
    
-    if(message.content == prefix + 'Random.') {
-        message.channel.sendMessage('Your number is: Math.random()');
+    if(message.content == prefix + 'Random') {
+        message.channel.sendMessage('Your number is:');Math.floor(Math.random() * 12030);
     }
 });
 
