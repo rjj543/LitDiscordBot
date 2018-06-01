@@ -32,12 +32,7 @@ bot.on('message', (message) => {
     }
 });
 
-bot.on('message', (message) => {
-   
-    if(message.content == 'Prefix') {
-        message.channel.sendMessage('The current prefix is:' prefix);
-    }
-});
+
 
 bot.login(process.env.BOT_TOKEN);
 // save it b
