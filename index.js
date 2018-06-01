@@ -39,5 +39,13 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+   
+    if(message.content == prefix + 'Random.') {
+        message.channel.sendMessage('Your number is: Math.random()');
+    }
+});
+
+
 bot.login(process.env.BOT_TOKEN);
 // save it b
