@@ -28,7 +28,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
    
     if(message.content == 'Cmds') {
-        message.channel.sendMessage('Pickle Rick, What is Milk?, ShaunD.');
+        message.channel.sendMessage('```Pickle Rick``` ```What is Milk?``` ```ShaunD.```');
     }
 });
 
