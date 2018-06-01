@@ -25,5 +25,12 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+   
+    if(message.content == 'Cmds') {
+        message.channel.sendMessage('Pickle Rick, What is Milk?, ShaunD.');
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
 // save it b
