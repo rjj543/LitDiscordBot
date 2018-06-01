@@ -14,7 +14,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
    
     if(message.content == 'What is Milk?') {
-        message.channel.sendMessage('A bad youtube channe;');
+        message.channel.sendMessage('A bad youtube channel!');
     }
 });
 
