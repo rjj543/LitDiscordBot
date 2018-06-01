@@ -1,4 +1,4 @@
-
+const prefix = /
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
@@ -6,28 +6,28 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
    
-    if(message.content == 'Pickle Rick') {
+    if(message.content == prefix + 'Pickle Rick') {
         message.channel.sendMessage('REEEE');
     }
 });
 
 bot.on('message', (message) => {
    
-    if(message.content == 'What is Milk?') {
+    if(message.content == prefix + 'What is Milk?') {
         message.channel.sendMessage('A bad youtube channel!');
     }
 });
 
 bot.on('message', (message) => {
    
-    if(message.content == 'ShaunD.') {
+    if(message.content == prefix + 'ShaunD.') {
         message.channel.sendMessage('https://www.youtube.com/channel/UClQ7Jbtv49MHLoKlOGGVdTQ/videos');
     }
 });
 
 bot.on('message', (message) => {
    
-    if(message.content == 'Cmds') {
+    if(message.content == prefix + 'Cmds') {
         message.channel.sendMessage('```Pickle Rick``` ```What is Milk?``` ```ShaunD.```');
     }
 });
