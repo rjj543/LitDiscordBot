@@ -41,3 +41,4 @@ bot.on('message', (message) => {
 
 bot.login(process.env.BOT_TOKEN);
 // save it b
+// damn you heroku
