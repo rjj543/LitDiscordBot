@@ -44,7 +44,7 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
-if (msg.content.toLowerCase().startsWith("*8ball")) { //The 8ball Message
+if (msg.content.toLowerCase().startsWith("!8ball")) { //The 8ball Message
 		var msg1 = Array(5); 
 		msg1[1] = "Yes";
 	    msg1[2] = "No";
